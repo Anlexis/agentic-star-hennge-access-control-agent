@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+.env
+*.egg
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Centrally distributed reference files — never committed to a template repo.
+# They are placed locally at project-init time for reference only.
+CLAUDE.md
+STG_RUNBOOK.md
+DEV_CREDENTIAL_PROVISIONING.md
+security_rules/
+ci_stubs/
+MANIFEST.md

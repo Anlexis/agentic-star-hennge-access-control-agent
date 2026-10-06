@@ -1,0 +1,9 @@
+# Runtime parameters — loaded by AgentRegistry, passed as Graph(config=...).
+# Separate from config/agent.yaml (the static manifest).
+
+max_retry: 3
+timeout_s: 30
+
+# carried from the legacy manifest root by migrate_manifest.py
+hennge:
+  base_url: "https://api.hennge.one/v1"
